@@ -57,7 +57,7 @@
     color: #ffa500;
     text-shadow: 1px 1px 1px black;
     animation: changetext 10s infinite linear;
-  }
+  }/*
   @keyframes changetext{
     0%{content: "Divya Desam";}
     
@@ -70,7 +70,7 @@
     80%{content: "Thai Mookambika Temple";}
   
     100%{content: "Arupadai Veedy";}
-  }
+  }*/
   .home .content a{
     padding: 10px;
     background: white;
@@ -208,7 +208,7 @@
     width: 100%;
     height: auto;
 }
-/* footer*/
+/* footer
 .footer {
     background-color: #f8f9fa;
     padding: 40px 0;
@@ -274,4 +274,204 @@
     display: block;
     margin-top: 5px;
     color: #999;
-}
+}*/
+/* footer new*/
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #666;
+  }
+  .footer .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .footer-column ul li a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .footer-column h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+  }
+  /* Existing styles retained */
+  
+  /* Media query for tablets and devices with max-width of 768px */
+  @media (max-width: 768px) {
+  
+    /* Hero section */
+    .hero-section {
+      background-size: cover;
+      height: auto;
+      padding: 50px 20px;
+      display: block;
+    }
+  
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section h5 {
+      font-size: 12px;
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    /* Cards adjustments for tablet screens */
+    .card-img-top {
+      height: 250px; /* Adjust image height for smaller screens */
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    .tripthumbnail, .tripthumbnail1 {
+      height: 200px; /* Smaller thumbnail size for tablets */
+      width: auto;
+    }
+  
+    .section3img {
+      width: 120px;
+      height: 120px; /* Adjusted image size */
+    }
+  
+    /* Footer columns to stack vertically */
+    .footer .footer-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Booking section adjustments */
+    .booking h2, .booking1 {
+      font-size: 2rem; /* Smaller heading size */
+    }
+  
+    
+  }
+  @media (max-width: 768px) {
+    /* Footer adjustments */
+    .footer .footer-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Adjust app icons to be displayed inline */
+    .appicons {
+      display: flex; /* Use flexbox for horizontal layout */
+      justify-content: flex-start; /* Align icons to the start */
+      flex-wrap: wrap; /* Allow wrapping if necessary */
+      margin-bottom: 10px; /* Add margin below app icons */
+    }
+  
+    .appicons a {
+      margin-right: 10px; /* Space between icons */
+      font-size: 25px; /* Adjust icon size for mobile */
+    }
+  
+    /* Contact Us section */
+    .contact-left {
+      display: block; /* Ensure contact info is in block */
+      margin-bottom: 10px; /* Margin below contact section */
+    }
+  
+    /* Newsletter adjustments */
+    .newsletter {
+      display: flex;
+      flex-direction: column; /* Stack input and button */
+      width: 100%; /* Full width */
+    }
+  
+    .form-control {
+      width: 100%; /* Full width for input */
+      margin-right: 0; /* No margin for mobile */
+    }
+  
+    .newsletter button {
+      width: 100%; /* Full width for button */
+    }
+  
+    /* Hide the map in the popular section */
+    .indiamap {
+      display: none; /* Hide the map on smaller screens */
+    }
+  
+    /* Hide the Discover button on mobile */
+    .discover-btn {
+      display: none; /* Hide discover button on mobile */
+    }
+  
+    /* Adjust images in the popular destinations section */
+    .tripthumbnail1 {
+      width: 100px; /* Adjust width for smaller screens */
+      height: 100px;
+    }
+  }
+  
+  
+  
+  @media (max-width: 480px) {
+    
+    /* Footer columns stack */
+    .footer .footer-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Adjust app icons for mobile */
+    .appicons {
+      display: flex; /* Use flexbox for horizontal layout */
+      justify-content: flex-start; /* Align icons to the start */
+      flex-wrap: wrap; /* Allow wrapping if necessary */
+      margin-bottom: 10px; /* Space below icons */
+    }
+  
+    /* Footer app icons size */
+    .appicons a {
+      font-size: 20px; /* Adjust icon size for mobile */
+      margin-right: 10px; /* Space between icons */
+    }
+  
+    /* Hide the map in the popular section */
+    .indiamap {
+      display: none; /* Hide map for mobile */
+    }
+  
+    /* Adjust images in the popular section */
+    .tripthumbnail1 {
+      width: 100%; /* Further reduce image size for mobile */
+      height: 150px;
+    }
+  
+    /* Hide the Discover button on mobile */
+    .discover-btn {
+      display: none;
+    }
+  
+    /* Newsletter adjustments */
+    .newsletter {
+      display: flex;
+      flex-direction: column; /* Stack input and button */
+      width: 100%; /* Full width */
+    }
+  
+    .form-control {
+      width: 100%; /* Full width for input */
+    }
+  
+    .newsletter button {
+      width: 100%; /* Full width for button */
+    }
+  }
+  
